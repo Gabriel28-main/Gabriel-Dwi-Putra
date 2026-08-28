@@ -30,7 +30,7 @@ export default function About() {
             <h3 className='text-[30px]'>Successful <br />Projects</h3>
           </div>
         </div>
-        <div className='w-[500px] text-2xl'>
+        <div className='w-[500px] text- xl'>
           <p>For 2 Years of Building website, I’ve learned about Next.js & Express.js. Not only Js, i also explore the other programming language such as Golang & Python.</p>
         </div>
       </div>
