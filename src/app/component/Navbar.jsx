@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <div className='w-screen fixed h-20 items-center flex gap-[750px] justify-center bg-[#131218]'>
+        <div className='w-screen fixed h-20 items-center flex gap-[750px] justify-center bg-[#131218] max-phone:hidden'>
             <div className='items-center'>
                 <h3 className='font-extrabold text-white text-xl'>Gabriel Dwi Putra</h3>
             </div>

@@ -3,11 +3,11 @@ import { ArrowRight } from 'lucide-react'
 
 export default function About() {
   return (
-    <div className='w-screen bg-[#2B2D3A] h-[700px] flex justify-center items-center gap-[250px]'>
+    <div className='w-screen bg-[#2B2D3A] h-[700px] flex justify-center items-center gap-[250px] max-phone:flex max-phone:flex-wrap max-phone:w-screen max-phone:h-fit  '>
       <div className='text-white flex flex-col gap-15'>
         <div>
           <h2>ABOUT ME</h2>
-          <h1 className='text-[70px] font-bold'>I've been building
+          <h1 className='text-[70px] font-bold max-phone:text-[20px]'>I've been building
             <br />website since 2025</h1>
           <p className='w-[600px] text-[20px]'>Starting with exploring the basics and walking step-by-step toward the top, I am committed to continuous learning, mastering modern web technologies, and turning complex ideas into seamless, high-performance digital experiences.</p>
         </div>
