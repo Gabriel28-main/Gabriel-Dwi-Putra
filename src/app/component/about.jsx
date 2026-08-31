@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react'
 
 export default function About() {
   return (
-    <div className='w-screen bg-[#2B2D3A] h-[700px] flex justify-center items-center gap-[250px] max-phone:flex max-phone:flex-wrap max-phone:w-screen max-phone:h-fit  '>
+    <div className='w-full bg-[#2B2D3A] h-[700px] flex justify-center items-center gap-[250px] max-phone:flex max-phone:flex-wrap max-phone:w-screen max-phone:h-fit  '>
       <div className='text-white flex flex-col gap-15'>
         <div>
           <h2>ABOUT ME</h2>
