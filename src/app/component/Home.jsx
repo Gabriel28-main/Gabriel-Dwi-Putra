@@ -3,7 +3,7 @@ import React from 'react'
 import foto from '../../../public/picture/foto.jpeg'
 export default function Home() {
     return (
-        <div className='bg-[#131218] h-screen w-full p-2 flex flex-col  justify-center landscape:h-full'>
+        <div className='bg-[#131218] min-h-screen w-full p-2 flex flex-col justify-center'>
             <div className='text-white text-[35px] md:text-[50px] font-extrabold text-center flex flex-col items-center justify-center gap-10 lg:flex-row  lg:text-start lg:gap-40 lg:p-5'>
                 <div className='flex flex-col gap-10 '>
                     <div className='lg:text-10xl lg:w-[700px]'>
