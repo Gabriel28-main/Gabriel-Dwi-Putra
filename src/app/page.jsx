@@ -5,7 +5,7 @@ import Projects from './component/projects'
 // import About from './component/about'
 export default function page() {
   return (
-    <div>
+    <div className='scroll-smooth'>
       {/* <Navbar /> */}
       <Home />
       {/* <About /> */}
