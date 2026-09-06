@@ -16,7 +16,7 @@ export default function Home() {
 
                     <div className='text-[14px] font-bold flex  justify-center lg:justify-start gap-4 lg:text-[20px]'>
                         <a href="/picture/CV.pdf" download='CV.pdf' className='bg-[#FFD401] text-[#131218] p-1 border-[2px] border-[#ffd401]'>Download my CV</a>
-                        <a href="" className='p-1 border-[#FFD401] border-[2px]'>See my Projects</a>
+                        <a href="#projects" className='p-1 border-[#FFD401] border-[2px]'>See my Projects</a>
                     </div>
                 </div>
 
